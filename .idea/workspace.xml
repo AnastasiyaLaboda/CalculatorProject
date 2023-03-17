@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6408b6a9-3142-417b-bee4-48f53ce027df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="6408b6a9-3142-417b-bee4-48f53ce027df" name="Changes" comment="Homework 1">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CalculatorProject/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CalculatorProject/CalculatorInputUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CalculatorProject/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homework1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework1/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homework1/Calculator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,16 +46,34 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/anduser/IdeaProjects/MyApp",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework1.Calculator" />
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="CalculatorInputUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalculatorProject.CalculatorInputUtils" />
       <module name="AutoTestHomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework1.*" />
+          <option name="PATTERN" value="CalculatorProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalculatorProject.Runner" />
+      <module name="AutoTestHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CalculatorProject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,6 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.CalculatorInputUtils" />
         <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
@@ -75,6 +98,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678181933972</updated>
     </task>
+    <task id="LOCAL-00001" summary="Homework 1">
+      <created>1678183061628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678183061628</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,5 +118,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 1" />
   </component>
 </project>
