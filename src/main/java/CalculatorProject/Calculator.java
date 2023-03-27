@@ -15,8 +15,8 @@ public class Calculator {
 
     public static double divideNumbers(double number1, double number2) {
         if (number2 == 0) {
-            //throw new ArithmeticException("ERROR! You can't divide by zero");
-            System.out.println("ERROR! You can't divide by zero");
+            throw new ArithmeticException("ERROR! You can't divide by zero");
+            //System.out.println("ERROR! You can't divide by zero");
         }
         return number1 / number2;
     }

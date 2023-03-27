@@ -6,15 +6,12 @@ public class CalculatorInputUtils {
     public static double getNumber() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter number");
-        double number;
-        if (scanner.hasNextDouble()) {
-            number = scanner.nextDouble();
-        } else {
-            System.out.println("Something is wrong. Try again");
-            scanner.next();
-            number = getNumber();
+        String userInput = scanner.nextLine();
+        while (!userInput.matches("-?\\d+(\\.\\d+)?")) {
+            System.out.println("Something is wrong. Enter number again");
+            userInput = String.valueOf(getNumber());
         }
-        return number;
+        return Double.parseDouble(userInput);
     }
 
     public static String getOperator() {
