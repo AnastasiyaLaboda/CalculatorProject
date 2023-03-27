@@ -4,14 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6408b6a9-3142-417b-bee4-48f53ce027df" name="Changes" comment="Homework 1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CalculatorProject/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CalculatorProject/CalculatorInputUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CalculatorProject/Runner.java" afterDir="false" />
+    <list default="true" id="6408b6a9-3142-417b-bee4-48f53ce027df" name="Changes" comment="Unit tests are added, bug #1 fixed">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023_16_00_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023_16_00__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023_16_01_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023_16_01__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorProject/TestWithArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="1ce4bf29-f0a4-473a-b4b8-c0f1a7a8c013" name="Wrong branch" comment="Unit tests are added, bug #1 fixed">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorProject/CalculatorAddNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorProject/CalculatorDivideNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorProject/CalculatorInputUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorProject/CalculatorMultiplyNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorProject/CalculatorRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorProject/CalculatorSubtractNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/junit-platform.properties.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homework1/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CalculatorProject/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculatorProject/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CalculatorProject/CalculatorInputUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculatorProject/CalculatorInputUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +43,30 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson2" />
+        <entry key="$PROJECT_DIR$" value="lesson1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="6" end1="11" start2="6" end2="15" changelist="6408b6a9-3142-417b-bee4-48f53ce027df" />
+        <range start1="13" end1="14" start2="17" end2="19" changelist="6408b6a9-3142-417b-bee4-48f53ce027df" />
+        <range start1="30" end1="31" start2="35" end2="36" changelist="6408b6a9-3142-417b-bee4-48f53ce027df" />
+        <range start1="44" end1="54" start2="49" end2="59" changelist="1ce4bf29-f0a4-473a-b4b8-c0f1a7a8c013" />
+        <range start1="55" end1="59" start2="60" end2="96" changelist="1ce4bf29-f0a4-473a-b4b8-c0f1a7a8c013" />
+        <range start1="66" end1="66" start2="103" end2="107" changelist="1ce4bf29-f0a4-473a-b4b8-c0f1a7a8c013" />
+        <range start1="70" end1="72" start2="111" end2="112" changelist="1ce4bf29-f0a4-473a-b4b8-c0f1a7a8c013" />
+        <range start1="79" end1="79" start2="119" end2="123" changelist="1ce4bf29-f0a4-473a-b4b8-c0f1a7a8c013" />
+        <range start1="83" end1="83" start2="127" end2="178" changelist="1ce4bf29-f0a4-473a-b4b8-c0f1a7a8c013" />
+        <range start1="85" end1="85" start2="180" end2="181" changelist="1ce4bf29-f0a4-473a-b4b8-c0f1a7a8c013" />
+        <range start1="86" end1="88" start2="182" end2="185" changelist="1ce4bf29-f0a4-473a-b4b8-c0f1a7a8c013" />
+        <range start1="107" end1="108" start2="204" end2="212" changelist="1ce4bf29-f0a4-473a-b4b8-c0f1a7a8c013" />
+        <range start1="115" end1="116" start2="219" end2="226" changelist="6408b6a9-3142-417b-bee4-48f53ce027df" />
+        <range start1="123" end1="124" start2="233" end2="235" changelist="1ce4bf29-f0a4-473a-b4b8-c0f1a7a8c013" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,32 +77,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/anduser/IdeaProjects/MyApp",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.build"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anduser/IdeaProjects/ZooProgram&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Runner">
-    <configuration name="CalculatorInputUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalculatorProject.CalculatorInputUtils" />
-      <module name="AutoTestHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CalculatorProject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="CalculatorProject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculatorProject in AutoTestHomework">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculatorProject.Runner" />
       <module name="AutoTestHomework" />
@@ -81,11 +108,111 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorAddNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CalculatorProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CalculatorProject" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorProject.CalculatorAddNumbersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorInputUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CalculatorProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CalculatorProject" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorProject.CalculatorInputUtilsTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorInputUtilsTest.getOperator_shouldReturnValidOperatorWhenOperatorIsEntered2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CalculatorProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CalculatorProject" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorProject.CalculatorInputUtilsTest" />
+      <option name="METHOD_NAME" value="getOperator_shouldReturnValidOperatorWhenOperatorIsEntered2(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorProject in AutoTestHomework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CalculatorProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CalculatorProject" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+                <option value="site" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Runner" />
+      <item itemvalue="JUnit.CalculatorInputUtilsTest" />
+      <item itemvalue="JUnit.CalculatorAddNumbersTest" />
+      <item itemvalue="JUnit.CalculatorInputUtilsTest.getOperator_shouldReturnValidOperatorWhenOperatorIsEntered2" />
+      <item itemvalue="JUnit.CalculatorProject in AutoTestHomework" />
+      <item itemvalue="Maven.Test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorProject in AutoTestHomework" />
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.CalculatorInputUtils" />
-        <item itemvalue="Application.Calculator" />
+        <item itemvalue="JUnit.CalculatorInputUtilsTest" />
+        <item itemvalue="JUnit.CalculatorAddNumbersTest" />
+        <item itemvalue="JUnit.CalculatorInputUtilsTest.getOperator_shouldReturnValidOperatorWhenOperatorIsEntered2" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678183061628</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Homework 2">
+      <created>1679064780255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679064780255</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,7 +247,54 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="unitTests_branch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="unitTests_branch" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -121,6 +302,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 1" />
+    <MESSAGE value="Homework 2" />
+    <MESSAGE value="Unit tests are added, bug #1 fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit tests are added, bug #1 fixed" />
   </component>
 </project>
