@@ -1,4 +1,4 @@
-package CalculatorProject;
+package calculator_test;
 
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.parallel.Execution;
@@ -9,6 +9,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
+import static calculator.Calculator.divideNumbers;
 import static org.junit.jupiter.api.Assertions.*;
 
 @Execution(ExecutionMode.CONCURRENT)
@@ -30,13 +31,13 @@ public class CalculatorDivideNumbersTest {
     @ParameterizedTest
     @MethodSource("provideNumbersForDivideNumbersTest")
     public void divideNumbersTest_WithoutDivisionByZero(double number1, double number2, double result) {
-        assertEquals(result, Calculator.divideNumbers(number1, number2),
-                "Expected result " + result + ", but actual " + Calculator.divideNumbers(number1, number2) + " for numbers " + number1 + " and " + number2);
+        assertEquals(result, divideNumbers(number1, number2),
+                "Expected result " + result + ", but actual " + divideNumbers(number1, number2) + " for numbers " + number1 + " and " + number2);
     }
 
     @RepeatedTest(5)
     public void divideNumbersByZeroTestShouldThrowException() {
-        assertThrows(ArithmeticException.class, () -> Calculator.divideNumbers(Math.random(), 0));
+        assertThrows(ArithmeticException.class, () -> divideNumbers(Math.random(), 0));
     }
 
 }

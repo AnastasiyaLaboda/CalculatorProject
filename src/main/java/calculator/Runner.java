@@ -1,7 +1,7 @@
-package CalculatorProject;
+package calculator;
 
-import static CalculatorProject.Calculator.*;
-import static CalculatorProject.CalculatorInputUtils.*;
+import static calculator.Calculator.*;
+import static calculator.CalculatorInputUtils.*;
 
 public class Runner {
     public static void main(String[] args) {
