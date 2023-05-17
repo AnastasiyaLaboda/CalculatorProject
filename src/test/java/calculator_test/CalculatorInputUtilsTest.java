@@ -1,5 +1,6 @@
-package CalculatorProject;
+package calculator_test;
 
+import calculator.CalculatorInputUtils;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -7,6 +8,8 @@ import org.junit.jupiter.params.provider.ValueSource;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 
+import static calculator.CalculatorInputUtils.getNumber;
+import static java.lang.String.format;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalculatorInputUtilsTest {
@@ -18,7 +21,7 @@ public class CalculatorInputUtilsTest {
         System.setIn(in);
         String inputOperator = CalculatorInputUtils.getOperator();
         assertEquals(expectedOperator, inputOperator,
-                String.format("User entered %s, but get %s", expectedOperator, inputOperator));
+                format("User entered %s, but get %s", expectedOperator, inputOperator));
     }
 
     @RepeatedTest(10)
@@ -26,8 +29,8 @@ public class CalculatorInputUtilsTest {
         double enteredNumber = Math.random() * 10;
         InputStream in = new ByteArrayInputStream(Double.toString(enteredNumber).getBytes());
         System.setIn(in);
-        double actualNumber = CalculatorInputUtils.getNumber();
+        double actualNumber = getNumber();
         assertEquals(enteredNumber, actualNumber,
-                String.format("User entered %s, but get %s", enteredNumber, actualNumber));
+                format("User entered %s, but get %s", enteredNumber, actualNumber));
     }
 }

@@ -1,4 +1,4 @@
-package CalculatorProject;
+package calculator_test;
 
 import org.junit.jupiter.api.parallel.Execution;
 import org.junit.jupiter.api.parallel.ExecutionMode;
@@ -8,6 +8,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
+import static calculator.Calculator.multiplyNumbers;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @Execution(ExecutionMode.CONCURRENT)
@@ -30,7 +31,7 @@ public class CalculatorMultiplyNumbersTest {
     @ParameterizedTest
     @MethodSource("provideNumbersForMultiplyNumbersTest")
     public void multiplyNumbersTest(double number1, double number2, double result) {
-        assertEquals(result, Calculator.multiplyNumbers(number1, number2),
-                "Expected result " + result + ", but actual " + Calculator.multiplyNumbers(number1, number2) + " for numbers " + number1 + " and " + number2);
+        assertEquals(result, multiplyNumbers(number1, number2),
+                "Expected result " + result + ", but actual " + multiplyNumbers(number1, number2) + " for numbers " + number1 + " and " + number2);
     }
 }

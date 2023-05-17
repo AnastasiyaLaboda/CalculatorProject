@@ -1,4 +1,4 @@
-package CalculatorProject;
+package calculator;
 
 public class Calculator {
     public static double addNumbers(double number1, double number2) {
